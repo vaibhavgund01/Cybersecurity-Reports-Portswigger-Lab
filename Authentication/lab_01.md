@@ -84,3 +84,7 @@ Successfully authenticated into the application using valid credentials.
 
 ## Conclusion
 The application is vulnerable to username enumeration due to different server responses. This allows attackers to discover valid usernames and perform further password attacks.
+
+## Conclusion
+
+The application is vulnerable to username enumeration due to subtle differences in authentication responses. An attacker can identify valid usernames and subsequently perform password brute-force attacks to gain unauthorized access to user accounts. Implementing consistent error messages and stronger authentication controls would help mitigate this risk.
